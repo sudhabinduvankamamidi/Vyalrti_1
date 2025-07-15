@@ -1,4 +1,4 @@
-def assess_student(arithmetic_score, logical_score, total_arithmetic, total_logical):
+def assess_student(reasoning_score, psychometry_score, total_reasoning, total_psychometry):
     def grade(score, total):
         percent = (score / total) * 100
         if percent >= 75:
@@ -8,6 +8,6 @@ def assess_student(arithmetic_score, logical_score, total_arithmetic, total_logi
         else:
             return "Low"
     return {
-        "arithmetic": grade(arithmetic_score, total_arithmetic),
-        "logical": grade(logical_score, total_logical)
+        "reasoning": grade(reasoning_score, total_reasoning),
+        "psychometry": grade(psychometry_score, total_psychometry)
     }

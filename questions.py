@@ -1,13 +1,11 @@
-arithmetic_questions = [
-    {"question": "What is 7 + 5?", "answer": 12},
-    {"question": "What is 9 - 4?", "answer": 5},
-    {"question": "What is 6 * 3?", "answer": 18},
-    {"question": "What is 20 / 4?", "answer": 5},
+reasoning_questions = [
+    {"question": "What comes next in the sequence: 1, 2, 4, 8, ?", "answer": "16"},
+    {"question": "If all cats are animals and some animals are black, can some cats be black? (yes/no)", "answer": "yes"},
+    {"question": "Which is the odd one out: Dog, Cat, Bird, Car?", "answer": "Car"},
 ]
 
-logical_questions = [
-    {"question": "If all roses are flowers and some flowers fade quickly, can some roses fade quickly? (yes/no)", "answer": "yes"},
-    {"question": "Find the next number in the sequence: 2, 4, 8, 16, ?", "answer": 32},
-    {"question": "Which is the odd one out: Apple, Banana, Carrot, Mango?", "answer": "Carrot"},
-    {"question": "If Tom is taller than Jim and Jim is taller than Sam, who is the shortest?", "answer": "Sam"},
+psychometry_questions = [
+    {"question": "Do you prefer working alone or in a team? (alone/team)", "answer": "team"},
+    {"question": "Do you find it easy to adapt to new situations? (yes/no)", "answer": "yes"},
+    {"question": "Do you enjoy solving puzzles? (yes/no)", "answer": "yes"},
 ]
